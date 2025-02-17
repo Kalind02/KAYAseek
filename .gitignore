@@ -1,0 +1,30 @@
+# ===========================
+# 🔹 General System Files 🔹
+# ===========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.log
+*.bak
+*.tmp
+*.idea/
+.vscode/
+*.iml
+
+# ===========================
+# 🔹 Python (Scrapy & FastAPI) 🔹
+# ===========================
+# Ignore virtual environments
+venv/
+myenv/
+
+# Ignore Python cache
+*.pyc
+
+# Ignore unnecessary html files
+**/jobs-internships.html
+
+
+
