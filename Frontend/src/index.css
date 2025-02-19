@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #f3f4f6; /* Light gray background */
+  color: #000000; /* Ensure all text is black */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global styling */
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #2563eb; /* Blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e40af; /* Darker blue on hover */
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    padding: 0.5em 1em;
+  }
+}

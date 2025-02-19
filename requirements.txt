@@ -34,6 +34,7 @@ pycparser==2.22
 pydantic==2.10.6
 pydantic_core==2.27.2
 PyDispatcher==2.0.7
+PyJWT==2.10.1
 pymongo==4.11
 pyOpenSSL==25.0.0
 python-jose==3.3.0
